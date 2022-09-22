@@ -1,0 +1,156 @@
+*{
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+
+}
+
+header{
+
+background-color: #0f0f0f;
+padding: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.imagem-um{
+
+width: 150px;
+
+
+}
+
+.listas{
+
+display: flex;
+gap: 30px;
+font-size: 30px;
+flex-wrap: wrap;
+
+}
+
+.listas a{
+
+text-decoration: none;
+color: #0066f0;
+
+}
+
+body{
+
+background-color: rgb(0, 0, 0);
+
+}
+
+.imagem-dois{
+
+background-image: url(https://wallpaperaccess.com/full/299096.jpg);
+height:500px;
+background-size: cover;
+
+}
+
+.conteudo{
+
+min-height: 65vh;
+display: flex;
+justify-content:center;
+flex-wrap: wrap;
+padding: 10px;
+gap: 25px;
+
+}
+
+.titulo{
+
+color: #0066f0;
+display: flex;
+justify-content: center;
+
+}
+
+.fotos{
+ 
+height: fit-content;
+width: 200px;
+background-color: #ffa500;
+border-radius: 10px;
+overflow: hidden;
+
+}
+
+
+.fotos .ichigo{
+
+height:300px;
+
+}
+
+.fotos .aizen{
+
+height: 300px;
+
+}
+
+.fotos .vilao{
+
+height: 300px;
+
+}
+
+iframe {
+
+border: 1px solid rgb(250, 4, 4);
+margin:10px 515px ;
+display: flex;
+
+}
+
+footer img{
+
+width: 40px;
+height: 40px;
+border-radius: 50px;
+
+}
+
+footer{    
+    
+background-color: #0066f0;
+display: flex;
+justify-content: center;
+gap: 20px;
+padding: 20px;
+
+}
+
+.link{
+
+text-decoration: none;
+color: #000000;
+
+}
+
+@media(max-width:400px) {
+
+header{
+
+flex-direction: column;
+height: fit-content;
+gap: 5px;
+}
+
+.imagem-dois{
+
+height: 200px;
+background-size: cover;
+
+}
+
+}
+
+
